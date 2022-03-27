@@ -1,0 +1,16 @@
+{
+    "name": "Save_Tab",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Save_Tab",
+    "permissions": [
+        "storage",
+        "background",
+        "contextMenus",
+        "activeTab"
+    ],
+    "background":{
+        "matches":[],
+        "scripts":["src/background.js"]
+    }
+}
